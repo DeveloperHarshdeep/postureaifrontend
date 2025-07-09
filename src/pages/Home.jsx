@@ -4,7 +4,7 @@ import * as poseDetection from '@tensorflow-models/pose-detection';
 import '@tensorflow/tfjs-backend-webgl';
 import * as tf from '@tensorflow/tfjs';
 import Header from '../components/Header';
-import FeedbackOverlay from '../components/FeedbackOverlay';
+import FeedbackOverlay from '../components/FeedBackOverlay';
 import VideoUpload from '../components/VideoUpload';
 import socket from '../sockets/socket';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
