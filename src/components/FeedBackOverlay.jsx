@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckCircle, AlertTriangle, Loader2 } from 'lucide-react';
 
-const FeedbackOverlay = ({ postureStatus }) => {
+const FeedBackOverlay = ({ postureStatus }) => {
 const getStatusUI = () => {
   switch (postureStatus.status) {
     case 'good':
@@ -40,4 +40,4 @@ const getStatusUI = () => {
   );
 };
 
-export default FeedbackOverlay;
+export default FeedBackOverlay;
