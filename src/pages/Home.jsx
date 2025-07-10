@@ -154,12 +154,12 @@ const Home = () => {
 
       <div className="text-center mb-4 flex justify-center gap-4">
         <button onClick={startDetection} disabled={!detector}
-          className="px-6 py-3 bg-indigo-600 text-white rounded-full shadow">
+          className="btn px-6 py-3 bg-indigo-600 text-white rounded-full shadow">
           {isDetecting ? <Loader className="animate-spin w-5 h-5" /> : 'Start Detection'}
         </button>
         {isDetecting && (
           <button onClick={stopDetection}
-            className="px-6 py-3 bg-red-600 text-white rounded-full shadow">
+            className="btn px-6 py-3 bg-red-600 text-white rounded-full shadow">
             Stop
           </button>
         )}
